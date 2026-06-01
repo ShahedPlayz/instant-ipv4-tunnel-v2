@@ -342,7 +342,7 @@ You can now use that token inside the script.
 
 
 
-![Demo](sgm-bypasser.png)
+![Demo](sgm-bypasser-v2.png)
 
 
 

@@ -378,7 +378,7 @@ Never share your API token with anyone.
 
 
 
-Only create tokens with the minimum permissions required for DNS and Zone management.
+Only use API in SGM Bypasser Script because its secure, Your API Token Stays Safe.
 
 
 

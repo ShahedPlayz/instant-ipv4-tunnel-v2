@@ -356,7 +356,7 @@ You can now use that token inside the script.
 
 ```bash
 
-bash <(curl -fsSL https://raw.githubusercontent.com/ShahedPlayz/instant-ipv4-tunnel/main/instant-ipv4.sh | tr -d '\r')
+bash <(curl -fsSL https://raw.githubusercontent.com/ShahedPlayz/instant-ipv4-tunnel-v2/main/instant-ipv4.sh | tr -d '\r')
 
 ```
 

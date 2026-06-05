@@ -12,7 +12,7 @@ PURPLE='\033[0;35m'; CYAN='\033[0;36m'; NC='\033[0m'
 DB_FILE="$HOME/.sgm_bypasser_db.json"
 LOG_DIR="/tmp/.sgm_tunnels"
 SCRIPT_DIR="$HOME/.sgm_scripts"
-API_URL="https://api.sgmbypasser.indevs.in/send"
+API_URL="http://quaxly001.hatenna.com:25452/send"
 BOT_INVITE="https://discord.com/oauth2/authorize?client_id=1502918807105175732&permissions=8&integration_type=0&scope=bot+applications.commands"
 CF_API_BASE="https://api.cloudflare.com/client/v4"
 DEBUG_LOG="$LOG_DIR/debug.log"
@@ -229,7 +229,7 @@ create_tunnel_script() {
 #!/bin/bash
 PROFILE_NAME="$1"; PORT="$2"; METHOD="$3"; USER_ID="$4"; WEBHOOK="$5"
 DB_FILE="$HOME/.sgm_bypasser_db.json"; LOG_FILE="/tmp/.sgm_tunnels/${PROFILE_NAME}_${METHOD}.log"
-API_URL="https://api.sgmbypasser.indevs.in/send"; CF_API_BASE="https://api.cloudflare.com/client/v4"
+API_URL="http://quaxly001.hatenna.com:25452/send"; CF_API_BASE="https://api.cloudflare.com/client/v4"
 DEBUG_LOG="/tmp/.sgm_tunnels/debug.log"
 
 log_msg() { echo "[$(date '+%H:%M:%S')] $1" >> "$LOG_FILE"; }
